@@ -1,13 +1,12 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --primary: #3A5A40;
-  --accent: #A3B18A;
-  --tan: #C2A773;
-  --sand: #EFE7DA;
-  --dark: #1F2421;
+  /* rest of your CSS variables */
+}
 }
 
 @theme inline {
