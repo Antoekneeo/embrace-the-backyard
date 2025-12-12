@@ -5,11 +5,14 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  /* rest of your CSS variables */
-}
+  --primary: #3A5A40;
+  --accent: #A3B18A;
+  --tan: #C2A773;
+  --sand: #EFE7DA;
+  --dark: #1F2421;
 }
 
-@theme inline {
+@theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-body);
@@ -18,18 +21,4 @@
   --color-accent: var(--accent);
   --color-tan: var(--tan);
   --color-sand: var(--sand);
-  --color-dark: var(--dark);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-body), system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji";
 }
