@@ -1,0 +1,12 @@
+{
+  "name": "image-downloader",
+  "version": "1.0.0",
+  "description": "Script to download and optimize animal images",
+  "main": "download-images.js",
+  "dependencies": {
+    "sharp": "^0.32.0"
+  },
+  "scripts": {
+    "start": "node download-images.js"
+  }
+}
